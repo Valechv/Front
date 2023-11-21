@@ -1,0 +1,40 @@
+.btn-outline-secondary {
+  @apply bg-transparent
+ /* LIGHT */
+ text-secondary
+ border-secondary
+ hover:bg-secondary
+ hover:text-white
+ /* DARK */
+ dark:text-secondary-500
+ dark:border-secondary-500
+ hover:dark:text-white
+ hover:dark:bg-secondary-500;
+}
+
+.btn-outline-primary {
+  @apply bg-transparent
+  /* LIGHT */
+  text-primary 
+  border-primary 
+  hover:bg-primary 
+  hover:text-white;
+}
+
+.btn-outline-primary {
+  @apply bg-transparent
+  /* LIGHT */
+  text-primary 
+  border-primary 
+  hover:bg-primary 
+  hover:text-white;
+}
+
+.btn-outline-white {
+  @apply bg-transparent
+    /* LIGHT */
+  text-white 
+  border-white 
+  hover:bg-white 
+  hover:text-secondary;
+}

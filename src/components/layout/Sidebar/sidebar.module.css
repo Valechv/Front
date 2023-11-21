@@ -1,0 +1,53 @@
+.sidebar .oculto {
+  @apply hidden;
+}
+
+.sidebar:hover .oculto,
+.sidebar.anchor .oculto {
+  @apply inline-block opacity-100;
+}
+
+.sidebar .oculto2 {
+  @apply hidden;
+}
+
+.sidebar:hover .oculto2,
+.sidebar.anchor .oculto2 {
+  @apply flex opacity-100;
+}
+
+.cerrar {
+  @apply hidden;
+}
+
+.sidebar:hover .cerrar,
+.sidebar.anchor .cerrar {
+  @apply flex;
+}
+
+.text {
+  @apply w-1 truncate opacity-0;
+}
+
+.sidebar:hover .text,
+.sidebar.anchor .text {
+  @apply w-full opacity-100;
+}
+
+.logo {
+  @apply truncate opacity-0 w-0;
+}
+
+.sidebar:hover .logo,
+.sidebar.anchor .logo {
+  @apply opacity-100 w-[180px] object-contain;
+}
+
+.isotipo {
+  @apply opacity-100 w-12 object-contain block;
+}
+
+.sidebar:hover .isotipo,
+.sidebar.anchor .isotipo {
+  @apply truncate opacity-0 hidden;
+}
